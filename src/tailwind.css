@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .buttons button{
+       padding:12px 10px;
+       border-radius:6px;
+       font-size:20px;
+       background-color: #eee;
+       curser:pointer;
+    }
+    .buttons button:active{
+        transfrom:scale(0.99);
+    }
+    
+    .buttons button:hover{
+        background:rgb(147,193,253);
+    }
+}
